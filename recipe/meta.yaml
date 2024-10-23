@@ -1,5 +1,5 @@
 {% set name = "splinkclickhouse" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/splinkclickhouse-{{ version }}.tar.gz
-  sha256: 440f8506531cd8688adb393d4837e04d8558d420c7175b9a555a172e5baf35ba
+  sha256: 537af05dcf899d6827ed11c9df85f4da067653f8dc872f7500f5b18327263177
 
 build:
   noarch: python
