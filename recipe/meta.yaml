@@ -12,19 +12,21 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.9,<4.0
+    - python {{ python_min }}
     - hatchling
     - pip
   run:
-    - python >=3.9,<4.0
-    - splink >=4.0.2
+    - python >={{ python_min }}
+    - splink >=4.0.6
     - clickhouse-connect >=0.7.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - splinkclickhouse
 
