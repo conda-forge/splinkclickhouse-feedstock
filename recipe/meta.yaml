@@ -27,8 +27,11 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pip
   imports:
     - splinkclickhouse
+  commands:
+    - pip check
 
 about:
   home: https://github.com/ADBond/splinkclickhouse
