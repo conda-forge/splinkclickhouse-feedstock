@@ -11,7 +11,7 @@ Summary: Clickhouse backend support for Splink
 
 Development: https://github.com/ADBond/splinkclickhouse
 
-Documentation: https://github.com/ADBond/splinkclickhouse/blob/main/README.md
+Documentation: https://adbond.github.io/splinkclickhouse/
 
 Current build status
 ====================

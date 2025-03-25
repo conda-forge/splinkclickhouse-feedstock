@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -39,7 +39,7 @@ about:
   license: MIT
   license_file: LICENSE
   dev_url: https://github.com/ADBond/splinkclickhouse
-  doc_url: https://github.com/ADBond/splinkclickhouse/blob/main/README.md
+  doc_url: https://adbond.github.io/splinkclickhouse/
 
 extra:
   recipe-maintainers:
